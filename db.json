@@ -1,4 +1,27 @@
 {
+    "pages": [
+        {
+            "id": "orders",
+            "pathnamae": "/",
+            "text": "Orders",
+            "icon-group": "md",
+            "icon": "MdShoppingCart"
+        },
+        {
+            "id": "stores",
+            "pathnamae": "/stores",
+            "text": "Stores",
+            "icon-group": "io",
+            "icon": "IoMdBusiness"
+        },
+        {
+            "id": "agents",
+            "pathnamae": "/agents",
+            "text": "Agents",
+            "icon-group": "io",
+            "icon": "IoMdContact"
+        }
+    ],
     "brands": [{
         "name": "Pizza Inn",
         "id": "pizza-inn"
