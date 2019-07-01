@@ -2,21 +2,21 @@
     "pages": [
         {
             "id": "orders",
-            "pathnamae": "/",
+            "pathname": "/",
             "text": "Orders",
             "iconGroup": "md",
             "icon": "MdShoppingCart"
         },
         {
             "id": "stores",
-            "pathnamae": "/stores",
+            "pathname": "/stores",
             "text": "Stores",
             "iconGroup": "io",
             "icon": "IoMdBusiness"
         },
         {
             "id": "agents",
-            "pathnamae": "/agents",
+            "pathname": "/agents",
             "text": "Agents",
             "iconGroup": "io",
             "icon": "IoMdContact"
