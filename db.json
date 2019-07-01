@@ -4,21 +4,21 @@
             "id": "orders",
             "pathnamae": "/",
             "text": "Orders",
-            "icon-group": "md",
+            "iconGroup": "md",
             "icon": "MdShoppingCart"
         },
         {
             "id": "stores",
             "pathnamae": "/stores",
             "text": "Stores",
-            "icon-group": "io",
+            "iconGroup": "io",
             "icon": "IoMdBusiness"
         },
         {
             "id": "agents",
             "pathnamae": "/agents",
             "text": "Agents",
-            "icon-group": "io",
+            "iconGroup": "io",
             "icon": "IoMdContact"
         }
     ],
