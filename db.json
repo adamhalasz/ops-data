@@ -1,162 +1,167 @@
 {
-    "pages": [
-        {
-            "id": "orders",
-            "pathname": "/",
-            "text": "Orders",
-            "iconGroup": "md",
-            "icon": "MdShoppingCart"
+    "initialize": {
+        "profile": {
+            "name": "Arjun"
+        },
+        "pages": [
+            {
+                "id": "orders",
+                "pathname": "/",
+                "text": "Orders",
+                "iconGroup": "md",
+                "icon": "MdShoppingCart"
+            },
+            {
+                "id": "stores",
+                "pathname": "/stores",
+                "text": "Stores",
+                "iconGroup": "io",
+                "icon": "IoMdBusiness"
+            },
+            {
+                "id": "agents",
+                "pathname": "/agents",
+                "text": "Agents",
+                "iconGroup": "io",
+                "icon": "IoMdContact"
+            }
+        ],
+        "brands": [{
+            "name": "Pizza Inn",
+            "id": "pizza-inn"
         },
         {
-            "id": "stores",
-            "pathname": "/stores",
-            "text": "Stores",
-            "iconGroup": "io",
-            "icon": "IoMdBusiness"
+            "name": "Pizza Studio",
+            "id": "pizza-studio"
         },
         {
-            "id": "agents",
-            "pathname": "/agents",
-            "text": "Agents",
-            "iconGroup": "io",
-            "icon": "IoMdContact"
-        }
-    ],
-    "brands": [{
-        "name": "Pizza Inn",
-        "id": "pizza-inn"
-    },
-    {
-        "name": "Pizza Studio",
-        "id": "pizza-studio"
-    },
-    {
-        "name": "Pie Five",
-        "id": "pie-five"
-    },
-    {
-        "name": "Wingstop",
-        "id": "wingstop"
-    },
-    {
-        "name": "Tropical-Smoothie",
-        "id": "tropical-smoothie"
-    },
-    {
-        "name": "Dennys",
-        "id": "dennys"
-    },{
-        "name": "Dominos",
-        "id": "dominos"
-    }],
-    "orders": [{
-        "id": "1223",
-        "brand": "dominos",
-        "store": "17605757222",
-        "caller": "+14246349898",
-        "status": "QUERY",
-        "updated": "10:10pm 6/26/2019",
-        "auidoURL": "https://vmachina.com/rx/dominos.12532857722.12532871302.1.wav",
-        "conversation": [
-          {
-            "sender": "brand",
-            "message": "You've reached Domino's Tacoma, Elsie speaking.. Your first and last name please?",
-            "sentAt": "0s",
-            "type": "PHONE_CALL",
-            "accuracy": "99%"
-          },
-          {
-            "sender": "12532871302",
-            "message": "brittany lynn",
-            "sentAt": "9s",
-            "type": "PHONE_CALL",
-            "accuracy": "86%"
-          },
-          {
-            "sender": "brand",
-            "message": "Ok brittany. is this for delivery or take out?",
-            "sentAt": "11s",
-            "type": "VOICE_COMMAND",
-            "accuracy": "99%"
-          },
-          {
-            "sender": "12532871302",
-            "message": "delivery",
-            "sentAt": "16s",
-            "type": "VOICE_COMMAND",
-            "accuracy": "99%"
-          },
-          {
-            "sender": "brand",
-            "message": "Got it. To what address?",
-            "sentAt": "17s",
-            "type": "VOICE_SEARCH",
-            "accuracy": "99%"
-          }
-        ]
-      },{
-        "id": "1222",
-        "brand": "dominos",
-        "store": "17605757222",
-        "caller": "+17146547569",
-        "status": "INITIATED",
-        "updated": "10:10pm 6/26/2019"
-      }],
-    "stores": [{
-        "status": "OFF",
-        "id": "2",
-        "brand": "wingstop",
-        "primaryNumber": "15105289464",
-        "secondaryNumber": "15105289464",
-        "orderPortal": "https://order.wingstop.com/menu/wingstop-477-EL-CERRITO-CA-94530",
-        "keaNumber": "15105289464",
-        "getHuman": "agent",
-        "voice": "WaveNet-ROTATE M/F",
-        "interactiveOrdering": "query",
-        "location": "340 El Cerrito Plaza, El Cerrito, CA 94530, USA"
-    },
-    {
-        "status": "ON",
-        "id": "1",
-        "brand": "dominos",
-        "primaryNumber": "16509644001",
-        "secondaryNumber": "15878580126",
-        "orderPortal": "https://slicelife.com/restaurants/NY/New%20York/10010/kea-test-shop/menu",
-        "keaNumber": "15105289464",
-        "getHuman": "store",
-        "voice": "WaveNet-ROTATE M/F",
-        "interactiveOrdering": "query",
-        "location": "Domino's Pizza, El Camino Real, Mountain View, CA, USA"
-    }],
-    "agents": [{
-        "name": "adam@kea",
-        "role": "TEAM_LEAD",
-        "status": "IDLE",
-        "queues": ["mamafus"]
-    },{
-        "name": "hayde@kea",
-        "role": "TEAM_LEAD",
-        "status": "IDLE",
-        "queues": ["liver_orders"]
-    },{
-        "name": "milicent@kea",
-        "role": "TEAM_LEAD",
-        "status": "IDLE",
-        "queues": ["liver_orders"]
-    },{
-        "name": "rhea@kea",
-        "role": "TEAM_LEAD",
-        "status": "OFFLINE",
-        "queues": ["liver_orders"]
-    },{
-        "name": "arjun@kea",
-        "role": "TEAM_LEAD",
-        "status": "IDLE",
-        "queues": ["austins_pizza", "live_orders", "mamafus"]
-    },{
-        "name": "delight@kea",
-        "role": "AGENT",
-        "status": "OFFLINE",
-        "queues": ["live_orders"]
-    }]
+            "name": "Pie Five",
+            "id": "pie-five"
+        },
+        {
+            "name": "Wingstop",
+            "id": "wingstop"
+        },
+        {
+            "name": "Tropical-Smoothie",
+            "id": "tropical-smoothie"
+        },
+        {
+            "name": "Dennys",
+            "id": "dennys"
+        },{
+            "name": "Dominos",
+            "id": "dominos"
+        }],
+        "orders": [{
+            "id": "1223",
+            "brand": "dominos",
+            "store": "17605757222",
+            "caller": "+14246349898",
+            "status": "QUERY",
+            "updated": "10:10pm 6/26/2019",
+            "auidoURL": "https://vmachina.com/rx/dominos.12532857722.12532871302.1.wav",
+            "conversation": [
+            {
+                "sender": "brand",
+                "message": "You've reached Domino's Tacoma, Elsie speaking.. Your first and last name please?",
+                "sentAt": "0s",
+                "type": "PHONE_CALL",
+                "accuracy": "99%"
+            },
+            {
+                "sender": "12532871302",
+                "message": "brittany lynn",
+                "sentAt": "9s",
+                "type": "PHONE_CALL",
+                "accuracy": "86%"
+            },
+            {
+                "sender": "brand",
+                "message": "Ok brittany. is this for delivery or take out?",
+                "sentAt": "11s",
+                "type": "VOICE_COMMAND",
+                "accuracy": "99%"
+            },
+            {
+                "sender": "12532871302",
+                "message": "delivery",
+                "sentAt": "16s",
+                "type": "VOICE_COMMAND",
+                "accuracy": "99%"
+            },
+            {
+                "sender": "brand",
+                "message": "Got it. To what address?",
+                "sentAt": "17s",
+                "type": "VOICE_SEARCH",
+                "accuracy": "99%"
+            }
+            ]
+        },{
+            "id": "1222",
+            "brand": "dominos",
+            "store": "17605757222",
+            "caller": "+17146547569",
+            "status": "INITIATED",
+            "updated": "10:10pm 6/26/2019"
+        }],
+        "stores": [{
+            "status": "OFF",
+            "id": "2",
+            "brand": "wingstop",
+            "primaryNumber": "15105289464",
+            "secondaryNumber": "15105289464",
+            "orderPortal": "https://order.wingstop.com/menu/wingstop-477-EL-CERRITO-CA-94530",
+            "keaNumber": "15105289464",
+            "getHuman": "agent",
+            "voice": "WaveNet-ROTATE M/F",
+            "interactiveOrdering": "query",
+            "location": "340 El Cerrito Plaza, El Cerrito, CA 94530, USA"
+        },
+        {
+            "status": "ON",
+            "id": "1",
+            "brand": "dominos",
+            "primaryNumber": "16509644001",
+            "secondaryNumber": "15878580126",
+            "orderPortal": "https://slicelife.com/restaurants/NY/New%20York/10010/kea-test-shop/menu",
+            "keaNumber": "15105289464",
+            "getHuman": "store",
+            "voice": "WaveNet-ROTATE M/F",
+            "interactiveOrdering": "query",
+            "location": "Domino's Pizza, El Camino Real, Mountain View, CA, USA"
+        }],
+        "agents": [{
+            "name": "adam@kea",
+            "role": "TEAM_LEAD",
+            "status": "IDLE",
+            "queues": ["mamafus"]
+        },{
+            "name": "hayde@kea",
+            "role": "TEAM_LEAD",
+            "status": "IDLE",
+            "queues": ["liver_orders"]
+        },{
+            "name": "milicent@kea",
+            "role": "TEAM_LEAD",
+            "status": "IDLE",
+            "queues": ["liver_orders"]
+        },{
+            "name": "rhea@kea",
+            "role": "TEAM_LEAD",
+            "status": "OFFLINE",
+            "queues": ["liver_orders"]
+        },{
+            "name": "arjun@kea",
+            "role": "TEAM_LEAD",
+            "status": "IDLE",
+            "queues": ["austins_pizza", "live_orders", "mamafus"]
+        },{
+            "name": "delight@kea",
+            "role": "AGENT",
+            "status": "OFFLINE",
+            "queues": ["live_orders"]
+        }]
+    }
 }
