@@ -52,6 +52,12 @@
         "name": "Dennys",
         "id": "dennys"
     }],
+    "agentTypes": [
+      { "id": "admin", "name": "Admin" },
+      { "id": "ops", "name": "Ops" },
+      { "id": "lead", "name": "Lead" },
+      { "id": "agent", "name": "Agent" }
+    ],
     "orders": [{
         "id": "1223",
         "brand": "dominos",
