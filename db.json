@@ -232,31 +232,37 @@
         "location": "Domino's Pizza, El Camino Real, Mountain View, CA, USA"
     }],
     "agents": [{
+        "id": 1,
         "name": "adam@kea",
         "role": "TEAM_LEAD",
         "status": "IDLE",
         "queues": ["mamafus"]
     },{
+        "id": 2,
         "name": "hayde@kea",
         "role": "TEAM_LEAD",
         "status": "IDLE",
         "queues": ["liver_orders"]
     },{
+        "id": 3,
         "name": "milicent@kea",
         "role": "TEAM_LEAD",
         "status": "IDLE",
         "queues": ["liver_orders"]
     },{
+        "id": 3,
         "name": "rhea@kea",
         "role": "TEAM_LEAD",
         "status": "OFFLINE",
         "queues": ["liver_orders"]
     },{
+        "id": 5,
         "name": "arjun@kea",
         "role": "TEAM_LEAD",
         "status": "IDLE",
         "queues": ["austins_pizza", "live_orders", "mamafus"]
     },{
+        "id": 6,
         "name": "delight@kea",
         "role": "AGENT",
         "status": "OFFLINE",
