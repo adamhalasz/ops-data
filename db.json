@@ -194,7 +194,7 @@
               "sentAt": "11s",
               "type": "VOICE_COMMAND",
               "accuracy": "99%"
-            },
+            }
           ]
       }],
     "stores": [{
