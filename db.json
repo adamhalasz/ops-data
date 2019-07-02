@@ -56,7 +56,7 @@
       "agentTypes": [
         { "id": "admin", "name": "Admin" },
         { "id": "ops", "name": "Ops" },
-        { "id": "lead", "name": "Lead" },
+        { "id": "team-lead", "name": "Lead" },
         { "id": "agent", "name": "Agent" }
       ]
     },
