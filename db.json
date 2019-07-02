@@ -23,6 +23,12 @@
         }
     ],
     "brands": [{
+        "name": "Dominos",
+        "id": "dominos"
+    },{
+        "name": "Austins Pizza",
+        "id": "austins-pizza"
+    },{
         "name": "Pizza Inn",
         "id": "pizza-inn"
     },
@@ -45,15 +51,13 @@
     {
         "name": "Dennys",
         "id": "dennys"
-    },{
-        "name": "Dominos",
-        "id": "dominos"
     }],
     "orders": [{
         "id": "1223",
         "brand": "dominos",
         "store": "17605757222",
         "caller": "+14246349898",
+        "agent": "arjun@kea",
         "status": "QUERY",
         "updated": "10:10pm 6/26/2019",
         "auidoURL": "https://vmachina.com/rx/dominos.12532857722.12532871302.1.wav",
@@ -61,6 +65,53 @@
           {
             "sender": "brand",
             "message": "You've reached Domino's Tacoma, Elsie speaking.. Your first and last name please?",
+            "sentAt": "0s",
+            "type": "PHONE_CALL",
+            "accuracy": "99%"
+          },
+          {
+            "sender": "12532871302",
+            "message": "brittany lynn",
+            "sentAt": "9s",
+            "type": "PHONE_CALL",
+            "accuracy": "86%"
+          },
+          {
+            "sender": "brand",
+            "message": "Ok brittany. is this for delivery or take out?",
+            "sentAt": "11s",
+            "type": "VOICE_COMMAND",
+            "accuracy": "99%"
+          },
+          {
+            "sender": "12532871302",
+            "message": "delivery",
+            "sentAt": "16s",
+            "type": "VOICE_COMMAND",
+            "accuracy": "99%"
+          },
+          {
+            "sender": "brand",
+            "message": "Got it. To what address?",
+            "sentAt": "17s",
+            "type": "VOICE_SEARCH",
+            "accuracy": "99%"
+          }
+        ]
+      },{
+        "id": "1224",
+        "brand": "austins-pizza",
+        "store": "15127939555",
+        "caller": "+19562273000",
+        "status": "CONFIRMED",
+        "agent": "alicia@kea",
+        "orderTotal": "$10.06",
+        "updated": "6:58pm 7/01/2019",
+        "auidoURL": "https://vmachina.com/rx/dominos.12532857722.12532871302.1.wav",
+        "conversation": [
+          {
+            "sender": "brand",
+            "message": "You've reached austin's pizza, Fiona speaking .. Your first and last name please?",
             "sentAt": "0s",
             "type": "PHONE_CALL",
             "accuracy": "99%"
